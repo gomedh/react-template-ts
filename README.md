@@ -1,16 +1,8 @@
-## Tipalti React Starter Template
+### Expense Table
 
-This is a simplified React starter template configured using [Vite](https://vitejs.dev/guide/), a build tool that aims to provide a faster and leaner development experience.
-
-It has minimal dependencies and configuration to allow for easy installation and to allow the candidate to make their own decisions about styling, external libraries and other tooling.
-
-You are free to make changes to the template but please be aware that those reviewing your work will need to be able to install and run it locally without difficulty.
+A basic table to preview the expense data coming from the API. I have used ag-grid as a table and react concepts to develop the tool. The idea to use the ag-grid is because of the ease and keeping future use case in mind like Search, Sort, Drag Drop, Pagination and others. 
 
 ---
-
-## Usage
-
-To use the repository for your challenge submission, please fork the repository to your own Github account and then clone locally and begin development. Please DO NOT try to push branches or make pull requests to the original source template repository.
 
 ### Installation
 
@@ -37,5 +29,6 @@ From the root folder, run `npm run dev` to run a local server with hot reloading
 
 1. Need to Add basic Unit test for the components and custom Hook
 2. Need to create a interface for the API response  -  to ensure Type safety
+3. The First name and last name can be placed in some secure place like using Dotenv package
 
 
