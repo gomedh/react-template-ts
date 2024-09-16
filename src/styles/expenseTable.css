@@ -1,0 +1,31 @@
+.expense-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expense-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  align-self: flex-start; /* Left-aligns the heading */
+  width: 100%; /* Ensures the heading takes the full width of the container */
+  margin-left: 10%;
+
+}
+
+.divider {
+  width: 100%;
+  max-width: 80%;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.expense-table {
+  width: 80%;
+  font-family: Arial, sans-serif;
+}
+
+.ag-header-cell-label {
+  font-weight: bold;
+}
